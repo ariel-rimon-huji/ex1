@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link href="/styles/main.css" rel="stylesheet" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.png">
+    <title>Travel Blog</title>
+    <link href="/styles/main.css" rel="stylesheet">
+</head>
+<body>
     <header role="banner">
-      <h1>Welcome to my Website!</h1>
+        <h1>Adventure Travel Blog</h1>
+        <nav>
+            <a href="destinations.html">Destinations</a>
+        </nav>
     </header>
-    <main>
-      <p>This is a paragraph.</p>
-      <a href="/elements.html">Elements Page</a>
 
-      <div class="counter">
-        <h2>Counter</h2>
-        <button id="increment" class="counter-button">+</button>
-        <button id="decrement" class="counter-button">−</button>
-        <span id="count">0</span>
-      </div>
+    <main>
+        <div class="hero-section">
+            <h2>Welcome to My Travel Blog</h2>
+            <button id="like-button" class="like-btn">❤ Like</button>
+        </div>
+
+        <div class="content-section">
+            <h2>Latest Adventures</h2>
+            <p>Join me on my journey around the world! From hiking in the Swiss Alps to 
+            exploring ancient temples in Japan, every day brings new experiences.</p>
+            <br>
+            <p>Want to start your own adventure? Click the button below to get inspired!</p>
+            <button id="inspire-button" class="inspire-btn">Get Inspired</button>
+        </div>
     </main>
 
+    <footer>
+        <p>&copy; 2024 Adventure Travel Blog. All rights reserved.</p>
+    </footer>
+
     <script type="module" src="/main.js"></script>
-  </body>
+</body>
 </html>
